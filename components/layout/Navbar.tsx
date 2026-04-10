@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-black text-white">
+    <nav className="flex items-center justify-between px-6 py-4 bg-gray-800/90 z-20 sticky top-0 text-white">
       <h1 className="text-xl font-bold">🎬 WatchNext</h1>
 
       <div className="space-x-4">

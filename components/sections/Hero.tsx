@@ -1,7 +1,11 @@
 const isProduction = process.env.NODE_ENV === "production";
 const Hero = () => {
   return (
-    <section className={`bg-[url('/backdrop.avif')] text-white py-20 px-6 text-center flex items-center justify-center min-h-screen relative`}>
+    <section style={
+      {
+        backgroundImage: isProduction ? "url('./backdrop.avif')" : "url('/backdrop.avif')"
+      }
+    } className={`text-white py-20 px-6 text-center flex items-center justify-center min-h-screen relative`}>
       <div className="z-10">
         <h2 className="text-4xl font-bold mb-4">
           Discover Your Next Favorite Movie 🍿
@@ -14,7 +18,7 @@ const Hero = () => {
           Explore Movies
         </button>
       </div>
-      <div className="absolute top-0 w-full h-full bg-black/50" />
+      <div className="absolute top-0 w-full h-full bg-black/60" />
     </section>
   );
 };

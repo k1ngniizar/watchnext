@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard";
 
 const PopularMovies = () => {
   return (
-    <section className="px-6 py-10 bg-black">
+    <section className="px-6 py-10 bg-black min-h-screen">
       <h2 className="text-white text-2xl font-bold mb-6">
         Popular Movies
       </h2>

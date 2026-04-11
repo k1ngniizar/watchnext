@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎬 WatchNext Movie Recommendation App
 
-## Getting Started
+A modern movie recommendation landing page built with Next.js, TypeScript, and Tailwind CSS, featuring categorized movie sections.
 
-First, run the development server:
+---
 
-```bash
+🚀 Features
+
+🏠 Landing Page
+
+- Hero section with call-to-action
+- Premium section with call-to-action
+- Clean and responsive UI
+- Component-based architecture
+
+🎥 Movie Sections
+
+- ✅ Recommended Movies
+- 🔥 Popular Movies
+- 📈 Trending Movies
+- 🆕 Latest Movies
+
+---
+
+Premium Benefits:
+
+- 📧 Personalized movie recommendations via email (planned)
+- 🎬 Insights into upcoming movies
+- 🚀 Early access to trailers & teasers (planned)
+- 🔔 Notifications for movie releases (planned)
+
+---
+
+🧱 Project Structure
+
+src/
+ ├── app/
+ │   └── page.tsx
+ ├── components/
+ │   ├── layout/
+ │   │   ├── Navbar.tsx
+ │   │   └── Footer.tsx
+ │   ├── home/
+ │   │   ├── Hero.tsx
+ │   │   ├── PremiumCta.tsx
+ │   │   ├── MovieCard.tsx
+ │   │   ├── PopularMovies.tsx
+ │   │   ├── TrendingMovies.tsx
+ │   │   └── LatestMovies.tsx
+ │   ├── premium/
+ │   │   ├── PremiumBanner.tsx
+ │   │   ├── PremiumFeatures.tsx
+ ├── data/
+ │   └── movies.ts
+ ├── types/
+ │   └── movies.ts
+
+---
+
+⚙️ Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+
+---
+
+🧠 Key Concepts Used
+
+- Component-based architecture
+- Reusable UI patterns
+- Type safety with TypeScript interfaces
+- Separation of concerns (data, types, UI)
+
+---
+
+🛠️ Getting Started
+
+1. Clone the repository
+
+git clone <your-repo-url>
+cd movie-reco
+
+2. Install dependencies
+
+npm install
+
+3. Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧪 Current Limitations
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Uses static/mock data (no real API yet)
+- No authentication or payment integration
+- No backend services (emails, notifications)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+🔮 Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔌 Integrate movie API (e.g., TMDB)
+- 🔐 Add authentication (NextAuth / Clerk)
+- 💳 Implement subscription payments (Stripe)
+- 📧 Email recommendation system
+- 🔔 Real-time notifications
+- 🎞️ Trailer and teaser integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+📌 Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is structured to scale into a production-ready application, with clear separation between UI, logic, and data layers.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+👨‍💻 Author
+
+Ebenezer Cheetham-West
+
+---
+
+⭐ Acknowledgements
+
+Built as part of a learning journey into:
+
+- Modern frontend architecture
+- Scalable React patterns
+- Real-world product design thinking
+
+---

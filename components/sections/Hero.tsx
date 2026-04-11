@@ -1,3 +1,5 @@
+
+
 const isProduction = process.env.NODE_ENV === "production";
 const Hero = () => {
   return (
@@ -7,7 +9,8 @@ const Hero = () => {
       }
     } className={`text-white py-20 px-6 text-center flex items-center justify-center min-h-screen relative`}>
       <div className="z-10">
-        <h2 className="text-4xl font-bold mb-4">
+
+        <h2 className="text-4xl font-bold my-4">
           Discover Your Next Favorite Movie 🍿
         </h2>
         <p className="text-gray-100 mb-6">

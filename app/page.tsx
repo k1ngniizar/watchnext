@@ -4,6 +4,7 @@ import Hero from "@/components/sections/Hero";
 import LatestMovies from "@/components/sections/LatestMovies";
 import MovieList from "@/components/sections/MovieList";
 import PopularMovies from "@/components/sections/PopularMovies";
+import PremiumCta from "@/components/sections/PremiumCta";
 import TrendingMovies from "@/components/sections/TrendingMovies";
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <MovieList />
       <LatestMovies />
+      <PremiumCta />
       <TrendingMovies />
       <PopularMovies />
       <Footer />

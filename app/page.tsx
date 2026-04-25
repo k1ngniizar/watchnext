@@ -1,5 +1,6 @@
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
+import Contact from "@/components/sections/Contact";
 import Hero from "@/components/sections/Hero";
 import LatestMovies from "@/components/sections/LatestMovies";
 import MovieList from "@/components/sections/MovieList";
@@ -17,6 +18,7 @@ export default function Home() {
       <LatestMovies />
       <PremiumCta />
       <TrendingMovies />
+      <Contact />
       <PopularMovies />
       <Footer />
     </main>

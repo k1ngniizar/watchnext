@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "WatchNext",
-  description: "Get the latest recommendations for what movies to watch next.",
+  description: "Get the latest movie recommendations, where you can watch them and what to watch next.",
 };
 
 export default function RootLayout({

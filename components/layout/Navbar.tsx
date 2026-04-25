@@ -4,9 +4,9 @@ const Navbar = () => {
       <h1 className="text-xl font-bold">🎬 WatchNext</h1>
 
       <div className="space-x-4">
-        <button className="hover:text-gray-300">Home</button>
-        <button className="hover:text-gray-300">Trending</button>
-        <button className="hover:text-gray-300">Genres</button>
+        <a href="#" className="hover:text-gray-300">Home</a>
+        <a href="#trending" className="hover:text-gray-300">Trending</a>
+        <a href="#genre" className="hover:text-gray-300">Genres</a>
       </div>
     </nav>
   );
